@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<methodCall>
+	<methodName>samurai.SessionInitiateMulti</methodName>
+	<params>
+		<param>
+			<value>
+				<struct>
+					<member>
+						<name>TOS</name>
+						<value>
+							<string>text</string>
+						</value>
+					</member>
+					<member>
+						<name>Content</name>
+						<value>
+							<string>eine test sms</string>
+						</value>
+					</member>
+					<member>
+						<name>RemoteUri</name>
+						<value>
+							<array>
+								<data>
+									<value>
+										<string>sip:4912345678@sipgate.net</string>
+									</value>
+								</data>
+							</array>
+						</value>
+					</member>
+					<member>
+						<name>LocalUri</name>
+						<value>
+							<string>sip:1234567@sipgate.de</string>
+						</value>
+					</member>
+				</struct>
+			</value>
+		</param>
+	</params>
+</methodCall>

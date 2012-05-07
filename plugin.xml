@@ -1,0 +1,25 @@
+<plugin name='voip' version='1.3.0' grailsVersion='1.2.0&gt; *'>
+  <author>Ralf Bensmann</author>
+  <authorEmail>grails@bensmann.com</authorEmail>
+  <title>Voice-over-IP plugin for Grails.</title>
+  <description>Use VoIP provider sipgate within Grails.</description>
+  <documentation>http://grails.org/voip+Plugin</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>com.bensmann.voip.SipgateController</resource>
+    <resource>com.bensmann.voip.VoipLog</resource>
+    <resource>com.bensmann.voip.FaxSenderJob</resource>
+    <resource>com.bensmann.voip.SipgateEventListJob</resource>
+    <resource>com.bensmann.voip.SipgateService</resource>
+    <resource>com.bensmann.voip.VoipTagLib</resource>
+  </resources>
+  <dependencies>
+    <plugin name='controllers' version='1.3.1' />
+    <plugin name='core' version='1.3.1' />
+    <plugin name='hibernate' version='1.3.1' />
+  </dependencies>
+  <behavior />
+</plugin>
